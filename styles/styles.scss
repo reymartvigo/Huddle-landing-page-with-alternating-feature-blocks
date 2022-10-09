@@ -1,0 +1,23 @@
+@use "variable";
+@use "header";
+@use "main";
+@use "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+
+  h2 {
+    font-family: variable.$headingFont;
+  }
+
+  p {
+    font-family: variable.$paragraphFont;
+  }
+}

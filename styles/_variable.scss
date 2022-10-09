@@ -1,0 +1,46 @@
+$pink: hsl(322, 100%, 66%);
+$paleCyan: hsl(193, 100%, 96%);
+$darkCyan: hsl(192, 100%, 9%);
+$grayishBlue: hsl(208, 11%, 55%);
+$white: #fff;
+
+$headingFont: "Poppins", sans-serif;
+$paragraphFont: "Open Sans", sans-serif;
+
+$border: 1px solid;
+
+@mixin display($dplay: flex, $j-content: space-between, $align: center) {
+  display: $dplay;
+  justify-content: $j-content;
+  align-items: $align;
+}
+
+@mixin button(
+  $color: $darkCyan,
+  $shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3),
+  $bg: $white
+) {
+  background-color: $bg;
+  cursor: pointer;
+  color: $color;
+  font-family: $paragraphFont;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+}
+
+@mixin secheader($size: 1.3rem) {
+  letter-spacing: 0.5px;
+  font-size: $size;
+  color: $darkCyan;
+}
+
+@mixin secp($size: 0.8rem) {
+  line-height: 1.3rem;
+  letter-spacing: 0.5px;
+  font-size: $size;
+  color: $grayishBlue;
+}

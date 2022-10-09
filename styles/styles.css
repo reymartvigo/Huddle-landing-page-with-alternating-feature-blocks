@@ -1,0 +1,511 @@
+header {
+  background-color: hsl(193deg, 100%, 96%);
+  width: 100%;
+  padding: 2.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 7rem;
+}
+header button {
+  background-color: #fff;
+  cursor: pointer;
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  padding: 0.3rem;
+  width: 7rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 3rem 3rem;
+  }
+  header img {
+    width: 10rem;
+  }
+  header button {
+    padding: 0.5rem;
+    width: 8rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  header {
+    width: 100%;
+    padding: 5rem 5rem 1rem;
+  }
+  header img {
+    width: 25%;
+  }
+  header button {
+    font-size: 1rem;
+    padding: 0.7rem;
+    width: 12rem;
+  }
+}
+main {
+  width: 100%;
+}
+main .intro {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: hsl(193deg, 100%, 96%);
+  background-image: url(../image/bg-hero-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+main .intro h2 {
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+}
+main .intro p {
+  margin-bottom: 2rem;
+}
+main .intro button {
+  background-color: hsl(322deg, 100%, 66%);
+  cursor: pointer;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  width: 65%;
+  padding: 0.7rem;
+}
+main .intro div {
+  margin-top: 3.5rem;
+  width: 100%;
+}
+main .intro div img {
+  width: 100%;
+}
+main .middle-containers {
+  padding: 4rem 2rem;
+}
+main .middle-containers .grow-together,
+main .middle-containers .flowing-conversations,
+main .middle-containers .your-user {
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  padding: 3rem 1.5rem;
+  margin-bottom: 3rem;
+}
+main .middle-containers .grow-together .figure,
+main .middle-containers .grow-together .figure-2,
+main .middle-containers .grow-together .figure-3,
+main .middle-containers .flowing-conversations .figure,
+main .middle-containers .flowing-conversations .figure-2,
+main .middle-containers .flowing-conversations .figure-3,
+main .middle-containers .your-user .figure,
+main .middle-containers .your-user .figure-2,
+main .middle-containers .your-user .figure-3 {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+main .middle-containers .grow-together .figure img,
+main .middle-containers .grow-together .figure-2 img,
+main .middle-containers .grow-together .figure-3 img,
+main .middle-containers .flowing-conversations .figure img,
+main .middle-containers .flowing-conversations .figure-2 img,
+main .middle-containers .flowing-conversations .figure-3 img,
+main .middle-containers .your-user .figure img,
+main .middle-containers .your-user .figure-2 img,
+main .middle-containers .your-user .figure-3 img {
+  width: 100%;
+}
+main .middle-containers .grow-content,
+main .middle-containers .flow-content,
+main .middle-containers .user-content {
+  text-align: center;
+}
+main .middle-containers .grow-content h2,
+main .middle-containers .flow-content h2,
+main .middle-containers .user-content h2 {
+  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+  color: hsl(192deg, 100%, 9%);
+  margin-bottom: 1rem;
+}
+main .middle-containers .grow-content p,
+main .middle-containers .flow-content p,
+main .middle-containers .user-content p {
+  line-height: 1.3rem;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  color: hsl(208deg, 11%, 55%);
+}
+main .lower-container {
+  padding: 1rem;
+  background: linear-gradient(to bottom, #fff 0%, #fff 50%, hsl(192deg, 100%, 9%) 0%, hsl(192deg, 100%, 9%) 50%);
+}
+main .lower-container .build-container {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+main .lower-container .build-container h2 {
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  color: hsl(192deg, 100%, 9%);
+}
+main .lower-container .build-container button {
+  background-color: hsl(322deg, 100%, 66%);
+  cursor: pointer;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  width: 65%;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .intro {
+    padding: 5rem 4rem;
+  }
+  main .intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+  }
+  main .intro button {
+    width: 60%;
+    padding: 1rem;
+  }
+  main .middle-containers {
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .middle-containers .grow-together,
+main .middle-containers .flowing-conversations,
+main .middle-containers .your-user {
+    width: 90%;
+    padding: 3rem 2rem;
+    margin-bottom: 5rem;
+  }
+  main .middle-containers .grow-content h2,
+main .middle-containers .flow-content h2,
+main .middle-containers .user-content h2 {
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    color: hsl(192deg, 100%, 9%);
+    margin-bottom: 2rem;
+  }
+  main .middle-containers .grow-content p,
+main .middle-containers .flow-content p,
+main .middle-containers .user-content p {
+    line-height: 1.3rem;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    color: hsl(208deg, 11%, 55%);
+  }
+  main .lower-container {
+    padding: 3rem 7rem;
+  }
+  main .lower-container .build-container {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  main .lower-container .build-container h2 {
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    color: hsl(192deg, 100%, 9%);
+  }
+  main .lower-container .build-container button {
+    background-color: hsl(322deg, 100%, 66%);
+    cursor: pointer;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    width: 65%;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  main {
+    width: 100%;
+  }
+  main .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    text-align: left;
+    padding: 1rem 5rem;
+    background-image: url(../image/bg-hero-desktop.svg);
+  }
+  main .intro h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.5rem;
+  }
+  main .intro p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  main .intro button {
+    background-color: hsl(322deg, 100%, 66%);
+    cursor: pointer;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    width: 65%;
+    letter-spacing: 1px;
+    padding: 1.5rem;
+  }
+  main .middle-containers {
+    padding: 7rem 5rem;
+  }
+  main .middle-containers .flowing-conversations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+    margin-bottom: 5rem;
+    gap: 3.5rem;
+  }
+  main .middle-containers .flowing-conversations .figure-2 {
+    margin-bottom: 2rem;
+    width: 40%;
+  }
+  main .middle-containers .flowing-conversations .figure-2 img {
+    width: 100%;
+  }
+  main .middle-containers .flowing-conversations .flow-content {
+    width: 50%;
+    text-align: left;
+  }
+  main .middle-containers .flowing-conversations .flow-content h2 {
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    color: hsl(192deg, 100%, 9%);
+    margin-bottom: 1rem;
+  }
+  main .middle-containers .flowing-conversations .flow-content p {
+    line-height: 1.3rem;
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+    color: hsl(208deg, 11%, 55%);
+    line-height: 2rem;
+  }
+  main .middle-containers .grow-together,
+main .middle-containers .your-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 3rem 4rem;
+    margin-bottom: 5rem;
+    gap: 3.5rem;
+  }
+  main .middle-containers .grow-together .figure,
+main .middle-containers .grow-together .figure-3,
+main .middle-containers .your-user .figure,
+main .middle-containers .your-user .figure-3 {
+    margin-bottom: 2rem;
+    width: 40%;
+  }
+  main .middle-containers .grow-together .figure img,
+main .middle-containers .grow-together .figure-3 img,
+main .middle-containers .your-user .figure img,
+main .middle-containers .your-user .figure-3 img {
+    width: 100%;
+  }
+  main .middle-containers .grow-content,
+main .middle-containers .user-content {
+    width: 50%;
+    text-align: left;
+  }
+  main .middle-containers .grow-content h2,
+main .middle-containers .user-content h2 {
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    color: hsl(192deg, 100%, 9%);
+    margin-bottom: 1rem;
+  }
+  main .middle-containers .grow-content p,
+main .middle-containers .user-content p {
+    line-height: 1.3rem;
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+    color: hsl(208deg, 11%, 55%);
+    line-height: 2rem;
+  }
+  main .lower-container {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .lower-container .build-container {
+    width: 70%;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  main .lower-container .build-container h2 {
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.5px;
+    font-size: 2.5rem;
+    color: hsl(192deg, 100%, 9%);
+  }
+  main .lower-container .build-container button {
+    background-color: hsl(322deg, 100%, 66%);
+    cursor: pointer;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    width: 60%;
+    padding: 1.3rem;
+  }
+}
+footer {
+  background-image: url(../image/logo-2.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5rem 1.5rem;
+  color: #fff;
+  background-color: hsl(192deg, 100%, 9%);
+  padding: 7rem 1rem 3rem;
+}
+footer .contact {
+  margin-bottom: 4rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+footer .contact .location {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .contact .location img {
+  width: auto;
+  height: 1.5rem;
+}
+footer .contact .location p {
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+footer .contact img {
+  padding-right: 1rem;
+}
+footer .about,
+footer .about-2 {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .about a,
+footer .about-2 a {
+  width: 8rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+footer .social {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+footer .social a {
+  color: white;
+  font-size: 2rem;
+}
+footer .social a:hover {
+  color: hsl(322deg, 100%, 66%);
+}
+footer aside {
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 1025px) {
+  footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: url(../image/logo-2.svg);
+    background-repeat: no-repeat;
+    background-position: 4rem 5rem;
+    padding: 10rem 5rem 3rem;
+    gap: 5rem;
+  }
+  footer div {
+    width: auto;
+  }
+  footer .contact .location p {
+    margin-right: 5rem;
+    width: 20rem;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+  }
+  footer aside {
+    margin-top: -5rem;
+    grid-column: 4;
+    height: 2rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+}
+body h2 {
+  font-family: "Poppins", sans-serif;
+}
+body p {
+  font-family: "Open Sans", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
